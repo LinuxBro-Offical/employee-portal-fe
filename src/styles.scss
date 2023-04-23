@@ -1,0 +1,415 @@
+/* You can add global styles to this file, and also import other style files */
+.bg-content{
+    background-color: #B56D6D;
+    position: fixed;
+    width: calc(100% - 150px);
+    top: 5rem;
+    margin-left: 100px;
+}
+.main-content{
+    position: relative;
+    bottom: 4rem;
+    width: 1500px;
+    margin-left: 0px !important;
+    left: 80px;
+    width: calc(100% - 30px) !important;
+    height: 90vh !important;
+    background-color:#F1F1F1 !important;
+    overflow: scroll;
+    overflow-x: hidden;
+    box-shadow: 0.2rem 0.2rem 0.7rem 0.1rem rgb(0 0 0 / 20%) !important;
+}
+#sidenav-main{
+    position: absolute;
+    z-index: 100;
+    background-color: #ffffff00 !important;
+    max-width: 320px;
+    box-shadow:none !important;
+    .container-fluid{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+.navbar-nav li{
+    margin-bottom: 1rem;
+    line-height: 40px;
+    background: linear-gradient(1deg, #BABABA, #d7d7d7);
+    width: fit-content;
+    box-shadow: 0.2rem 0.2rem 0.1rem rgb(0 0 0 / 69%) !important;
+    a{
+        font-size: 17px;
+        font-weight: 600;
+        color: black !important;
+        padding: 0.5rem 3.5rem !important;
+    }
+    .active{
+        background-color: #633131 !important;
+        color: white !important;
+    }
+}
+
+.navbar-vertical.navbar-expand-md .navbar-nav .nav-link.active:before{
+    content: inherit !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    // box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(-90deg, grey, #d7d7d7);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: grey; 
+  }
+  body{
+    font-family: 'Poppins', sans-serif !important;
+  }
+
+  h1,h4{
+      color: #655959 !important;
+  }
+
+  .nav-div{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+    h1{
+      margin-bottom: 0px;
+    }
+  }
+  .main-content .navbar-top{
+    position: relative !important;
+  }
+  .underline{
+    border-bottom: 2px solid;
+    padding: 0 6rem;
+  }
+  .vl {
+    border-bottom: 2px solid #655959;
+    width: 250px;
+    position: relative;
+    left: 48px;
+  }
+  .profile-pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: #cbcbcb;
+    margin-top: 2rem;
+  }
+
+  .details {
+    margin-top: 2rem;
+    div{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      span{
+        font-weight: bold;
+        line-height: 35px;
+        color: #655959;
+      }
+    }
+  }
+
+.basic-details{
+  display: flex;
+  flex-direction: column;
+  span{
+    font-weight: bold;
+    line-height: 35px;
+    color: #655959;
+  }
+}
+
+.basic-details{
+  div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  }
+}
+.att-line{
+  display: flex;
+  flex-direction: row;
+  max-width: 600px !important;
+  overflow-x: scroll !important;
+  .item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px 0 0;
+    .attachment{
+      width: 100px;
+      height: 50px;
+      background-color: #cbcbcb;
+    }
+    span{
+      font-size: 12px;
+    }
+  }
+}
+.row{
+  margin: 20px 0px;
+}
+
+.bank-details{
+  div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    span{
+      font-weight: bold;
+      line-height: 35px;
+      color: #655959;
+      margin-right: 2rem;
+    }
+  }
+}
+
+.text-brown{
+  font-weight: bold;
+  line-height: 35px;
+  color: #655959;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0px 20px 0 0;
+  .attachment{
+    width: 200px;
+    height: 100px;
+    background-color: #cbcbcb;
+  }
+  .notice{
+    width: 100px;
+    height: 50px;
+    background-color: #cbcbcb;
+  }
+  span{
+    font-size: 12px;
+  }
+  button{
+    border-radius: 50%;
+    background-color: #655959;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    position: relative;
+    left: 100px;
+    top: 15px;
+  }
+}
+.add{
+  border-radius: 50%;
+    background-color: #655959;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.table{
+  border-collapse: separate;
+  border-spacing: 0 1em;
+  thead{
+    background-color: #b56d6d;
+    color: white;
+  }
+  tbody{
+    tr{
+      background-color: #EDD5D7;
+    }
+    td{
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 35px;
+      color: #655959;
+      white-space: pre-line;
+      .td-div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .item{
+          margin: 30px 20px 0 0;
+        }
+      }
+      .brown-dot{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background-color: #b56d6d;
+      }
+    }
+  }
+}
+
+.collapse-table tr:not(.header) {
+  display: none;
+}
+
+.collapse-table .att-line{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 600px !important;
+  overflow-x: scroll !important;  
+}
+
+@media only screen and (max-width: 767.98px) {
+  .bg-content {
+    background-color: #B56D6D;
+    position: fixed;
+    width: calc(100%);
+    top: 5rem;
+    margin-left: 0px !important;
+  }
+  .main-content {
+    width: calc(100%) !important;
+    position: static;
+    margin-left: 0px !important;
+    left: 0px;
+    bottom: 0px;
+    top: -80px;
+    height: 100vh !important;
+  }
+  #sidenav-collapse-main{
+    width: 355px;
+    overflow-x: hidden !important;
+  }
+  .navbar-collapse.collapsing, .navbar-collapse.show{
+    background: #fff0 !important;
+    box-shadow: none !important;
+  }
+  .navbar-collapse{
+    margin: 0 !important;
+  }
+  .nav-div{
+    margin-top: 3rem;
+  }
+  .navbar-collapse-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: relative;
+    top: -1.7rem;
+    left: 21px;
+    left: 60%;
+    border-bottom: 0px !important;
+  }
+  .bank-details{
+    overflow-x: scroll;
+  }
+  .att-line .item span {
+    font-size: 9px;
+  }
+  .bank-details div {
+    justify-content: space-between;
+    margin: 0 0.5rem;
+  }
+  #mob-title{
+    display: block !important;
+  }
+  #web-title{
+    display: none !important;
+  }
+  .bank-details div span{
+    margin-right: 0 !important;
+  }
+  .att-line{
+    overflow-x: scroll;
+  }
+  h1, .h1 {
+    font-size: 1.525rem !important;
+  }
+  .item button {
+    height: 20px;
+    width: 20px;
+    left: 40px;
+    top: 15px;
+  }
+  .item .attachment {
+    width: 85px;
+    height: 50px;
+    background-color: #cbcbcb;
+  }
+  #mob-update{
+    display: block;
+  }
+}
+@media only screen and (min-width: 900px){
+  #mob-update{
+    display: none;
+  }
+}
+
+
+.navbar-toggler, .navbar-toggler-icon{
+  color: #643232;
+}
+.btn-brown {
+  color: #fff !important;
+  background-color: #966059 !important;
+  border-color: #895e59 !important;
+  box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%) !important;
+}
+.dropdown i{
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 35px;
+  color: #655959;
+  white-space: pre-line;
+}
+
+.dropdown-menu.show{
+  left: -1.5em !important;
+  background-color: #eddfe0;
+  min-width: 150px;
+}
+
+.dropdown-menu .dropdown-item {
+  font-weight: bold !important;
+}
+
+.dropdown-menu .dropdown-item:hover{
+  background-color: #ecc7c9;
+}
+
+.dropdown-menu{
+  border-radius: 0rem !important;
+  padding: 0 !important;
+}
+btn-icon-only:active{
+  box-shadow: 0!important;
+}
